@@ -1,9 +1,9 @@
-node_modules/
-dist/
+statistics.html
+report.html
+bundle-analysis.html
 
 *.log
 *.iml
 .idea
 
-package-lock.json
 .swp
