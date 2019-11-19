@@ -1,0 +1,356 @@
+
+> react-resume@0.0.1 compile C:\Users\code_blodd\Code\React\react-resume
+> webpack --config webpack.prod.js --display-error-details --display-reasons --colors
+
+Hash: [1ma697aea1f53f4b3e9c8f[39m[22m
+Version: webpack [1m4.41.2[39m[22m
+Time: [1m6502[39m[22mms
+Built at: 11/14/2019 [1m5:33:03 PM[39m[22m
+                                                          [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                       [1m[39m[22m       [1mChunk Names[39m[22m
+                                                   [1m[32m./index.html[39m[22m   5.09 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                           [1m[32m332fc75d2f26f81506f6ec6ebef5a1d3.png[39m[22m   67.6 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                           [1m[32m49f2daeab0f607d4c4b2b2a7c7ae20d4.jpg[39m[22m   9.03 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                     [1m[32mandroid-chrome-192x192.png[39m[22m   20.6 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                     [1m[32mandroid-chrome-512x512.png[39m[22m   57.3 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                           [1m[32mapple-touch-icon.png[39m[22m   18.9 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                                 [1m[33mbackground.jpg[39m[22m   [1m[33m1.85 MiB[39m[22m        [1m[39m[22m  [1m[32m[emitted][39m[22m              [1m[33m[big][39m[22m  
+                                              [1m[32mbrowserconfig.xml[39m[22m  255 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                           [1m[33me94075d25994d2436cb37afc515fdb6e.jpg[39m[22m   [1m[33m1.85 MiB[39m[22m        [1m[39m[22m  [1m[32m[emitted][39m[22m              [1m[33m[big][39m[22m  
+                                              [1m[32mfavicon-16x16.png[39m[22m   1.28 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                              [1m[32mfavicon-32x32.png[39m[22m   2.12 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                                    [1m[32mfavicon.ico[39m[22m   14.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                                   [1m[32mheadshot.jpg[39m[22m   9.03 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                             [1m[32mintro.a697aea1f.js[39m[22m   1.49 KiB      [1m27[39m[22m  [1m[32m[emitted] [immutable][39m[22m         intro
+                                        [1m[32mintro~main.a697aea1f.js[39m[22m    2.4 KiB       [1m6[39m[22m  [1m[32m[emitted] [immutable][39m[22m         intro~main
+                                              [1m[32mmain.a697aea1f.js[39m[22m   5.15 KiB      [1m28[39m[22m  [1m[32m[emitted] [immutable][39m[22m         main
+                                                       [1m[32mmain.css[39m[22m   2.61 KiB      [1m28[39m[22m  [1m[32m[emitted][39m[22m                     main
+                                       [1m[32mmain~resume.a697aea1f.js[39m[22m   5.55 KiB       [1m7[39m[22m  [1m[32m[emitted] [immutable][39m[22m         main~resume
+                                                [1m[32mmochaGrunge.png[39m[22m   67.6 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                             [1m[32mmstile-150x150.png[39m[22m   10.8 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                         [1m[32mnpm.babel.a697aea1f.js[39m[22m   1.74 KiB       [1m0[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.babel
+                                     [1m[32mnpm.base64-js.a697aea1f.js[39m[22m   1.44 KiB       [1m8[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.base64-js
+                                          [1m[32mnpm.bson.a697aea1f.js[39m[22m   78.3 KiB       [1m9[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.bson
+                                        [1m[32mnpm.buffer.a697aea1f.js[39m[22m   19.4 KiB      [1m10[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.buffer
+                                [1m[32mnpm.buffer.a697aea1f.js.LICENSE[39m[22m  153 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                    [1m[32mnpm.classnames.a697aea1f.js[39m[22m  605 bytes       [1m1[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.classnames
+                            [1m[32mnpm.classnames.a697aea1f.js.LICENSE[39m[22m  124 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                [1m[32mnpm.core-js-bundle.a697aea1f.js[39m[22m    144 KiB      [1m30[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.core-js-bundle
+                                       [1m[32mnpm.core-js.a697aea1f.js[39m[22m   84.7 KiB      [1m29[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.core-js
+                                [1m[32mnpm.detect-browser.a697aea1f.js[39m[22m   2.67 KiB      [1m11[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.detect-browser
+                                   [1m[32mnpm.dom-helpers.a697aea1f.js[39m[22m   9.17 KiB      [1m12[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.dom-helpers
+                                           [1m[32mnpm.gud.a697aea1f.js[39m[22m  207 bytes      [1m31[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.gud
+                                       [1m[32mnpm.history.a697aea1f.js[39m[22m   8.69 KiB      [1m32[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.history
+                       [1m[32mnpm.hoist-non-react-statics.a697aea1f.js[39m[22m   1.01 KiB      [1m33[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.hoist-non-react-statics
+                                       [1m[32mnpm.ieee754.a697aea1f.js[39m[22m  950 bytes      [1m13[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.ieee754
+                                     [1m[32mnpm.invariant.a697aea1f.js[39m[22m  442 bytes      [1m34[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.invariant
+                                       [1m[32mnpm.isarray.a697aea1f.js[39m[22m  173 bytes      [1m14[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.isarray
+                                          [1m[32mnpm.long.a697aea1f.js[39m[22m   8.84 KiB      [1m15[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.long
+                     [1m[32mnpm.mini-create-react-context.a697aea1f.js[39m[22m   1.79 KiB      [1m35[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mini-create-react-context
+                   [1m[32mnpm.mongodb-stitch-browser-core.a697aea1f.js[39m[22m   26.3 KiB      [1m16[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mongodb-stitch-browser-core
+                    [1m[32mnpm.mongodb-stitch-browser-sdk.a697aea1f.js[39m[22m  236 bytes      [1m17[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mongodb-stitch-browser-sdk
+[1m[32mnpm.mongodb-stitch-browser-services-mongodb-remote.a697aea1f.js[39m[22m    2.2 KiB      [1m18[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mongodb-stitch-browser-services-mongodb-remote
+                       [1m[32mnpm.mongodb-stitch-core-sdk.a697aea1f.js[39m[22m   61.7 KiB      [1m19[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mongodb-stitch-core-sdk
+   [1m[32mnpm.mongodb-stitch-core-services-mongodb-remote.a697aea1f.js[39m[22m   8.13 KiB      [1m20[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.mongodb-stitch-core-services-mongodb-remote
+                                 [1m[32mnpm.object-assign.a697aea1f.js[39m[22m   1.06 KiB       [1m2[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.object-assign
+                         [1m[32mnpm.object-assign.a697aea1f.js.LICENSE[39m[22m   51 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                [1m[32mnpm.path-to-regexp.a697aea1f.js[39m[22m   3.26 KiB      [1m36[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.path-to-regexp
+                                       [1m[32mnpm.process.a697aea1f.js[39m[22m    1.7 KiB      [1m21[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.process
+                              [1m[32mnpm.prop-types-extra.a697aea1f.js[39m[22m   2.46 KiB      [1m37[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.prop-types-extra
+                                    [1m[32mnpm.prop-types.a697aea1f.js[39m[22m  861 bytes      [1m22[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.prop-types
+                               [1m[32mnpm.react-bootstrap.a697aea1f.js[39m[22m   21.8 KiB       [1m4[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-bootstrap
+                                     [1m[32mnpm.react-dom.a697aea1f.js[39m[22m    115 KiB      [1m23[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-dom
+                             [1m[32mnpm.react-dom.a697aea1f.js.LICENSE[39m[22m  247 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                      [1m[32mnpm.react-is.a697aea1f.js[39m[22m   2.07 KiB      [1m38[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-is
+                              [1m[32mnpm.react-is.a697aea1f.js.LICENSE[39m[22m  245 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                       [1m[32mnpm.react-lifecycles-compat.a697aea1f.js[39m[22m   2.38 KiB      [1m39[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-lifecycles-compat
+                                [1m[32mnpm.react-overlays.a697aea1f.js[39m[22m   11.4 KiB      [1m40[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-overlays
+                        [1m[32mnpm.react-router-bootstrap.a697aea1f.js[39m[22m    4.6 KiB      [1m42[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-router-bootstrap
+                              [1m[32mnpm.react-router-dom.a697aea1f.js[39m[22m   3.68 KiB      [1m43[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-router-dom
+                                  [1m[32mnpm.react-router.a697aea1f.js[39m[22m    7.1 KiB      [1m41[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-router
+                        [1m[32mnpm.react-transition-group.a697aea1f.js[39m[22m      9 KiB      [1m24[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react-transition-group
+                                         [1m[32mnpm.react.a697aea1f.js[39m[22m   6.37 KiB       [1m3[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.react
+                                 [1m[32mnpm.react.a697aea1f.js.LICENSE[39m[22m  243 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                           [1m[32mnpm.regenerator-runtime.a697aea1f.js[39m[22m   6.16 KiB      [1m44[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.regenerator-runtime
+                              [1m[32mnpm.resolve-pathname.a697aea1f.js[39m[22m  699 bytes      [1m45[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.resolve-pathname
+                                       [1m[32mnpm.restart.a697aea1f.js[39m[22m   1.21 KiB       [1m5[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.restart
+                                     [1m[32mnpm.scheduler.a697aea1f.js[39m[22m   4.76 KiB      [1m25[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.scheduler
+                             [1m[32mnpm.scheduler.a697aea1f.js.LICENSE[39m[22m  246 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                [1m[32mnpm.tiny-invariant.a697aea1f.js[39m[22m  200 bytes      [1m46[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.tiny-invariant
+                                [1m[32mnpm.uncontrollable.a697aea1f.js[39m[22m   1.08 KiB      [1m47[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.uncontrollable
+                                   [1m[32mnpm.value-equal.a697aea1f.js[39m[22m  523 bytes      [1m48[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.value-equal
+                                       [1m[32mnpm.webpack.a697aea1f.js[39m[22m  211 bytes      [1m26[39m[22m  [1m[32m[emitted] [immutable][39m[22m         npm.webpack
+                                            [1m[32mresume.a697aea1f.js[39m[22m   1.54 KiB      [1m49[39m[22m  [1m[32m[emitted] [immutable][39m[22m         resume
+                                          [1m[32msafari-pinned-tab.svg[39m[22m  618 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+                                               [1m[32msite.webmanifest[39m[22m  445 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m                     
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mnpm.react-bootstrap.a697aea1f.js[39m[22m [1m[32mnpm.babel.a697aea1f.js[39m[22m [1m[32mnpm.restart.a697aea1f.js[39m[22m [1m[32mnpm.react.a697aea1f.js[39m[22m [1m[32mnpm.classnames.a697aea1f.js[39m[22m [1m[32mnpm.object-assign.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-core-sdk.a697aea1f.js[39m[22m [1m[32mnpm.dom-helpers.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-core.a697aea1f.js[39m[22m [1m[32mnpm.react-transition-group.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-core-services-mongodb-remote.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-services-mongodb-remote.a697aea1f.js[39m[22m [1m[32mnpm.prop-types.a697aea1f.js[39m[22m [1m[32mnpm.react-dom.a697aea1f.js[39m[22m [1m[32mnpm.scheduler.a697aea1f.js[39m[22m [1m[32mnpm.base64-js.a697aea1f.js[39m[22m [1m[32mnpm.bson.a697aea1f.js[39m[22m [1m[32mnpm.buffer.a697aea1f.js[39m[22m [1m[32mnpm.detect-browser.a697aea1f.js[39m[22m [1m[32mnpm.ieee754.a697aea1f.js[39m[22m [1m[32mnpm.isarray.a697aea1f.js[39m[22m [1m[32mnpm.long.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-sdk.a697aea1f.js[39m[22m [1m[32mnpm.process.a697aea1f.js[39m[22m [1m[32mnpm.webpack.a697aea1f.js[39m[22m [1m[32mnpm.core-js.a697aea1f.js[39m[22m [1m[32mnpm.react-overlays.a697aea1f.js[39m[22m [1m[32mnpm.prop-types-extra.a697aea1f.js[39m[22m [1m[32mnpm.uncontrollable.a697aea1f.js[39m[22m [1m[32mnpm.react-router-bootstrap.a697aea1f.js[39m[22m [1m[32mnpm.path-to-regexp.a697aea1f.js[39m[22m [1m[32mnpm.react-is.a697aea1f.js[39m[22m [1m[32mnpm.core-js-bundle.a697aea1f.js[39m[22m [1m[32mnpm.gud.a697aea1f.js[39m[22m [1m[32mnpm.history.a697aea1f.js[39m[22m [1m[32mnpm.hoist-non-react-statics.a697aea1f.js[39m[22m [1m[32mnpm.invariant.a697aea1f.js[39m[22m [1m[32mnpm.mini-create-react-context.a697aea1f.js[39m[22m [1m[32mnpm.react-lifecycles-compat.a697aea1f.js[39m[22m [1m[32mnpm.react-router-dom.a697aea1f.js[39m[22m [1m[32mnpm.react-router.a697aea1f.js[39m[22m [1m[32mnpm.regenerator-runtime.a697aea1f.js[39m[22m [1m[32mnpm.resolve-pathname.a697aea1f.js[39m[22m [1m[32mnpm.tiny-invariant.a697aea1f.js[39m[22m [1m[32mnpm.value-equal.a697aea1f.js[39m[22m [1m[32mmain~resume.a697aea1f.js[39m[22m [1m[32mintro~main.a697aea1f.js[39m[22m [1m[32mmain.css[39m[22m [1m[32mmain.a697aea1f.js[39m[22m
+Entrypoint [1mintro[39m[22m = [1m[32mnpm.react-bootstrap.a697aea1f.js[39m[22m [1m[32mnpm.babel.a697aea1f.js[39m[22m [1m[32mnpm.restart.a697aea1f.js[39m[22m [1m[32mnpm.react.a697aea1f.js[39m[22m [1m[32mnpm.classnames.a697aea1f.js[39m[22m [1m[32mnpm.object-assign.a697aea1f.js[39m[22m [1m[32mintro~main.a697aea1f.js[39m[22m [1m[32mintro.a697aea1f.js[39m[22m
+Entrypoint [1mresume[39m[22m [1m[33m[big][39m[22m = [1m[32mnpm.react-bootstrap.a697aea1f.js[39m[22m [1m[32mnpm.babel.a697aea1f.js[39m[22m [1m[32mnpm.restart.a697aea1f.js[39m[22m [1m[32mnpm.react.a697aea1f.js[39m[22m [1m[32mnpm.classnames.a697aea1f.js[39m[22m [1m[32mnpm.object-assign.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-core-sdk.a697aea1f.js[39m[22m [1m[32mnpm.dom-helpers.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-core.a697aea1f.js[39m[22m [1m[32mnpm.react-transition-group.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-core-services-mongodb-remote.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-services-mongodb-remote.a697aea1f.js[39m[22m [1m[32mnpm.prop-types.a697aea1f.js[39m[22m [1m[32mnpm.react-dom.a697aea1f.js[39m[22m [1m[32mnpm.scheduler.a697aea1f.js[39m[22m [1m[32mnpm.base64-js.a697aea1f.js[39m[22m [1m[32mnpm.bson.a697aea1f.js[39m[22m [1m[32mnpm.buffer.a697aea1f.js[39m[22m [1m[32mnpm.detect-browser.a697aea1f.js[39m[22m [1m[32mnpm.ieee754.a697aea1f.js[39m[22m [1m[32mnpm.isarray.a697aea1f.js[39m[22m [1m[32mnpm.long.a697aea1f.js[39m[22m [1m[32mnpm.mongodb-stitch-browser-sdk.a697aea1f.js[39m[22m [1m[32mnpm.process.a697aea1f.js[39m[22m [1m[32mnpm.webpack.a697aea1f.js[39m[22m [1m[32mmain~resume.a697aea1f.js[39m[22m [1m[32mresume.a697aea1f.js[39m[22m
+[0] [1mmulti core-js-bundle @babel/polyfill ./src[39m[22m 52 bytes {[1m[33m28[39m[22m}[1m[32m [built][39m[22m
+    multi entry 
+[+R2d] [1m./node_modules/mongodb-stitch-browser-core/dist/esm/index.js + 23 modules[39m[22m 58.8 KiB {[1m[33m16[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36mmongodb-stitch-browser-core[39m[22m [kGnn] [1m[35m./node_modules/mongodb-stitch-browser-sdk/dist/esm/index.js[39m[22m 1:0-44
+    harmony export imported specifier [1m[36mmongodb-stitch-browser-core[39m[22m [kGnn] [1m[35m./node_modules/mongodb-stitch-browser-sdk/dist/esm/index.js[39m[22m 1:0-44
+    |    24 modules
+[+YzT] [1m./node_modules/react-bootstrap/esm/Nav.js + 7 modules[39m[22m 10.4 KiB {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 40:69-72 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 45:25-28 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 48:25-28 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 48:74-77 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 50:25-28 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony side effect evaluation [1m[36m./Nav[39m[22m [Jz+W] [1m[35m./node_modules/react-bootstrap/esm/Tabs.js[39m[22m 6:0-24
+    harmony import specifier [1m[36m./Nav[39m[22m [Jz+W] [1m[35m./node_modules/react-bootstrap/esm/Tabs.js[39m[22m 70:25-28
+    harmony side effect evaluation [1m[36m./Nav[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 90:0-25
+    harmony export imported specifier [1m[36m./Nav[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 91:0-23
+    |    8 modules
+[0pL4] [1m./node_modules/mongodb-stitch-browser-services-mongodb-remote/dist/esm/index.js + 6 modules[39m[22m 5.62 KiB {[1m[33m18[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36mmongodb-stitch-browser-services-mongodb-remote[39m[22m [kGnn] [1m[35m./node_modules/mongodb-stitch-browser-sdk/dist/esm/index.js[39m[22m 2:0-63
+    harmony export imported specifier [1m[36mmongodb-stitch-browser-services-mongodb-remote[39m[22m [kGnn] [1m[35m./node_modules/mongodb-stitch-browser-sdk/dist/esm/index.js[39m[22m 2:0-63
+    |    7 modules
+[6ctO] [1m./node_modules/react-bootstrap/esm/Navbar.js + 3 modules[39m[22m 6.69 KiB {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 30:66-72 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 38:25-31 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 38:85-91 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 40:26-32 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony side effect evaluation [1m[36m./Navbar[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 92:0-31
+    harmony export imported specifier [1m[36m./Navbar[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 93:0-29
+    |    4 modules
+[6vm3] [1m./src/scss/base.scss[39m[22m 39 bytes {[1m[33m28[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m../scss/base.scss[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 6:0-27
+[7RL8] [1m./src/index.jsx + 6 modules[39m[22m 6.26 KiB {[1m[33m28[39m[22m}[1m[32m [built][39m[22m
+    single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src[39m[22m [0] [1m[35mmulti core-js-bundle @babel/polyfill ./src[39m[22m main[2]
+    | [1m./src/index.jsx[39m[22m 266 bytes[1m[32m [built][39m[22m
+    |     single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src[39m[22m [0] [1m[35mmulti core-js-bundle @babel/polyfill ./src[39m[22m main[2]
+    | [1m./src/jsx/App.jsx[39m[22m 704 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m./jsx/App[39m[22m  [1m[35m./src/index.jsx[39m[22m 4:0-28
+    |     harmony import specifier [1m[36m./jsx/App[39m[22m  [1m[35m./src/index.jsx[39m[22m 5:70-73
+    | [1m./src/jsx/layout/Header.jsx[39m[22m 2.43 KiB[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m./layout/Header[39m[22m  [1m[35m./src/jsx/App.jsx[39m[22m 3:0-37
+    |     harmony import specifier [1m[36m./layout/Header[39m[22m  [1m[35m./src/jsx/App.jsx[39m[22m 9:62-68
+    | [1m./src/js/data.js[39m[22m 244 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m../../js/data[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 15:0-38
+    |     harmony import specifier [1m[36m../../js/data[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 53:11-16
+    | [1m./src/js/hooks.js[39m[22m 508 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m../../../js/hooks[39m[22m  [1m[35m./src/jsx/components/common/WordCarousel.jsx[39m[22m 12:0-48
+    |     harmony import specifier [1m[36m../../../js/hooks[39m[22m  [1m[35m./src/jsx/components/common/WordCarousel.jsx[39m[22m 23:2-13
+    |     + 2 hidden modules
+[JCAc] [1m./node_modules/uncontrollable/esm/index.js + 3 modules[39m[22m 9.92 KiB {[1m[33m47[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [+YzT] [1m[35m./node_modules/react-bootstrap/esm/Nav.js + 7 modules[39m[22m 6:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [+YzT] [1m[35m./node_modules/react-bootstrap/esm/Nav.js + 7 modules[39m[22m 20:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [6ctO] [1m[35m./node_modules/react-bootstrap/esm/Navbar.js + 3 modules[39m[22m 5:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [6ctO] [1m[35m./node_modules/react-bootstrap/esm/Navbar.js + 3 modules[39m[22m 19:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [97+O] [1m[35m./node_modules/react-bootstrap/esm/Dropdown.js[39m[22m 6:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [97+O] [1m[35m./node_modules/react-bootstrap/esm/Dropdown.js[39m[22m 18:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [DZHF] [1m[35m./node_modules/react-bootstrap/esm/Accordion.js[39m[22m 5:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [DZHF] [1m[35m./node_modules/react-bootstrap/esm/Accordion.js[39m[22m 12:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [Jz+W] [1m[35m./node_modules/react-bootstrap/esm/Tabs.js[39m[22m 5:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [Jz+W] [1m[35m./node_modules/react-bootstrap/esm/Tabs.js[39m[22m 49:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [QKck] [1m[35m./node_modules/react-bootstrap/esm/ToggleButtonGroup.js[39m[22m 6:0-48
+    harmony import specifier [1m[36muncontrollable[39m[22m [QKck] [1m[35m./node_modules/react-bootstrap/esm/ToggleButtonGroup.js[39m[22m 89:36-50
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [TUci] [1m[35m./node_modules/react-bootstrap/esm/Alert.js[39m[22m 5:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [TUci] [1m[35m./node_modules/react-bootstrap/esm/Alert.js[39m[22m 22:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [b+jL] [1m[35m./node_modules/react-bootstrap/esm/Carousel.js[39m[22m 8:0-48
+    harmony import specifier [1m[36muncontrollable[39m[22m [b+jL] [1m[35m./node_modules/react-bootstrap/esm/Carousel.js[39m[22m 416:49-63
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [gpSn] [1m[35m./node_modules/react-bootstrap/esm/TabContainer.js[39m[22m 2:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [gpSn] [1m[35m./node_modules/react-bootstrap/esm/TabContainer.js[39m[22m 8:25-40
+    harmony side effect evaluation [1m[36muncontrollable[39m[22m [sjrs] [1m[35m./node_modules/react-bootstrap/esm/ListGroup.js[39m[22m 5:0-49
+    harmony import specifier [1m[36muncontrollable[39m[22m [sjrs] [1m[35m./node_modules/react-bootstrap/esm/ListGroup.js[39m[22m 13:25-40
+    |    4 modules
+[ZCiN] [1m./node_modules/@restart/hooks/esm/useEventCallback.js + 1 modules[39m[22m 831 bytes {[1m[33m5[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [+YzT] [1m[35m./node_modules/react-bootstrap/esm/Nav.js + 7 modules[39m[22m 5:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [+YzT] [1m[35m./node_modules/react-bootstrap/esm/Nav.js + 7 modules[39m[22m 39:22-38
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [6ctO] [1m[35m./node_modules/react-bootstrap/esm/Navbar.js + 3 modules[39m[22m 5:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [6ctO] [1m[35m./node_modules/react-bootstrap/esm/Navbar.js + 3 modules[39m[22m 27:20-36
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [97+O] [1m[35m./node_modules/react-bootstrap/esm/Dropdown.js[39m[22m 7:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [97+O] [1m[35m./node_modules/react-bootstrap/esm/Dropdown.js[39m[22m 36:21-37
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [97+O] [1m[35m./node_modules/react-bootstrap/esm/Dropdown.js[39m[22m 46:21-37
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [Noi8] [1m[35m./node_modules/react-bootstrap/esm/ToastHeader.js[39m[22m 5:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [Noi8] [1m[35m./node_modules/react-bootstrap/esm/ToastHeader.js[39m[22m 23:20-36
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [QKj/] [1m[35m./node_modules/react-bootstrap/esm/DropdownItem.js[39m[22m 5:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [QKj/] [1m[35m./node_modules/react-bootstrap/esm/DropdownItem.js[39m[22m 36:20-36
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [TUci] [1m[35m./node_modules/react-bootstrap/esm/Alert.js[39m[22m 6:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [TUci] [1m[35m./node_modules/react-bootstrap/esm/Alert.js[39m[22m 35:20-36
+    harmony side effect evaluation [1m[36m@restart/hooks/useEventCallback[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 5:0-63
+    harmony import specifier [1m[36m@restart/hooks/useEventCallback[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 24:20-36
+    |    2 modules
+[bW7z] [1m./src/static/headshot.jpg[39m[22m 82 bytes {[1m[33m6[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m../../../static/headshot.jpg[39m[22m [mHF6] [1m[35m./src/jsx/layout/Intro.jsx + 2 modules[39m[22m 3:0-52
+    harmony import specifier [1m[36m../../../static/headshot.jpg[39m[22m [mHF6] [1m[35m./src/jsx/layout/Intro.jsx + 2 modules[39m[22m 17:9-17
+[dRu9] [1m./node_modules/react-transition-group/esm/Transition.js + 1 modules[39m[22m 16.3 KiB {[1m[33m24[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 7:0-58
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 45:18-26
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 55:18-26
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 65:18-25
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 77:18-25
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 126:14-21
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 158:25-33
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 160:16-24
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 166:16-23
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 193:11-19
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 197:11-18
+    harmony import specifier [1m[36m./Transition[39m[22m [FwEH] [1m[35m./node_modules/react-transition-group/esm/SwitchTransition.js[39m[22m 201:11-18
+    harmony side effect evaluation [1m[36m./Transition[39m[22m [iTG7] [1m[35m./node_modules/react-transition-group/esm/index.js[39m[22m 5:0-53
+    harmony export imported specifier [1m[36m./Transition[39m[22m [iTG7] [1m[35m./node_modules/react-transition-group/esm/index.js[39m[22m 5:0-53
+    harmony side effect evaluation [1m[36m./Transition[39m[22m [pQ8y] [1m[35m./node_modules/react-transition-group/esm/CSSTransition.js + 3 modules[39m[22m 8:0-38
+    harmony import specifier [1m[36m./Transition[39m[22m [pQ8y] [1m[35m./node_modules/react-transition-group/esm/CSSTransition.js + 3 modules[39m[22m 232:31-41
+    harmony side effect evaluation [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 11:0-99
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 26:60-66
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 26:98-105
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 26:139-147
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 26:181-188
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [vYJ8] [1m[35m./node_modules/react-bootstrap/esm/Collapse.js[39m[22m 113:31-41
+    harmony side effect evaluation [1m[36mreact-transition-group/Transition[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 8:0-82
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 18:48-56
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 18:80-87
+    harmony import specifier [1m[36mreact-transition-group/Transition[39m[22m [zM5D] [1m[35m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 28:29-39
+    |    2 modules
+[mHF6] [1m./src/jsx/layout/Intro.jsx + 2 modules[39m[22m 3.05 KiB {[1m[33m6[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m./layout/Intro[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 4:0-35
+    harmony import specifier [1m[36m./layout/Intro[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 13:33-38
+    single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src\jsx\layout\Intro.jsx[39m[22m  intro
+    | [1m./src/jsx/layout/Intro.jsx[39m[22m 705 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m./layout/Intro[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 4:0-35
+    |     harmony import specifier [1m[36m./layout/Intro[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 13:33-38
+    |     single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src\jsx\layout\Intro.jsx[39m[22m  intro
+    |     + 2 hidden modules
+[o/CI] [1m./src/jsx/layout/Resume.jsx + 3 modules[39m[22m 10.8 KiB {[1m[33m7[39m[22m}[1m[32m [built][39m[22m
+    harmony side effect evaluation [1m[36m./layout/Resume[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 5:0-37
+    harmony import specifier [1m[36m./layout/Resume[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 19:33-39
+    single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src\jsx\layout\Resume.jsx[39m[22m  resume
+    | [1m./src/jsx/layout/Resume.jsx[39m[22m 688 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m./layout/Resume[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 5:0-37
+    |     harmony import specifier [1m[36m./layout/Resume[39m[22m [7RL8] [1m[35m./src/index.jsx + 6 modules[39m[22m 19:33-39
+    |     single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\src\jsx\layout\Resume.jsx[39m[22m  resume
+    | [1m./src/js/utils.js[39m[22m 194 bytes[1m[32m [built][39m[22m
+    |     harmony side effect evaluation [1m[36m../../js/utils[39m[22m  [1m[35m./src/jsx/layout/Resume.jsx[39m[22m 5:0-34
+    |     harmony import specifier [1m[36m../../js/utils[39m[22m  [1m[35m./src/jsx/layout/Resume.jsx[39m[22m 12:13-17
+    |     harmony side effect evaluation [1m[36m../../../js/utils[39m[22m  [1m[35m./src/jsx/components/common/Experience.jsx[39m[22m 14:0-37
+    |     harmony import specifier [1m[36m../../../js/utils[39m[22m  [1m[35m./src/jsx/components/common/Experience.jsx[39m[22m 51:11-15
+    |     harmony import specifier [1m[36m../../../js/utils[39m[22m  [1m[35m./src/jsx/components/common/Experience.jsx[39m[22m 73:11-15
+    |     + 2 hidden modules
+[yLpj] [1m(webpack)/buildin/global.js[39m[22m 472 bytes {[1m[33m26[39m[22m}[1m[32m [built][39m[22m
+    cjs require [1m[36mglobal[39m[22m [8L3F] [1m[35m./node_modules/popper.js/dist/esm/popper.js[39m[22m 1:0-47
+    cjs require [1m[36mglobal[39m[22m [WdVA] [1m[35m./node_modules/core-js-bundle/index.js[39m[22m 1:0-41
+    cjs require [1m[36mglobal[39m[22m [fZtv] [1m[35m./node_modules/gud/index.js[39m[22m 1:0-41
+    cjs require [1m[36mglobal[39m[22m [no5z] [1m[35m./node_modules/bson/dist/bson.browser.esm.js[39m[22m 1:0-44
+    cjs require [1m[36mglobal[39m[22m [tjlA] [1m[35m./node_modules/buffer/index.js[39m[22m 1:0-41
+[zM5D] [1m./node_modules/react-bootstrap/esm/Modal.js + 10 modules[39m[22m 17.3 KiB {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/components/common/ContactForm.jsx[39m[22m 5:71-76 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/components/common/ContactForm.jsx[39m[22m 5:111-116 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/components/common/ContactForm.jsx[39m[22m 5:168-173 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/components/common/ContactForm.jsx[39m[22m 5:214-219 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony import specifier [1m[36mreact-bootstrap[39m[22m  [1m[35m./src/jsx/layout/Header.jsx[39m[22m 27:71-76 [1m[36m(skipped side-effect-free modules)[39m[22m
+    harmony side effect evaluation [1m[36m./Modal[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 80:0-29
+    harmony export imported specifier [1m[36m./Modal[39m[22m [vS6h] [1m[35m./node_modules/react-bootstrap/esm/index.js[39m[22m 81:0-27
+    |    11 modules
+    + 517 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  e94075d25994d2436cb37afc515fdb6e.jpg (1.85 MiB)
+  background.jpg (1.85 MiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (686 KiB)
+      npm.react-bootstrap.a697aea1f.js
+      npm.babel.a697aea1f.js
+      npm.restart.a697aea1f.js
+      npm.react.a697aea1f.js
+      npm.classnames.a697aea1f.js
+      npm.object-assign.a697aea1f.js
+      npm.mongodb-stitch-core-sdk.a697aea1f.js
+      npm.dom-helpers.a697aea1f.js
+      npm.mongodb-stitch-browser-core.a697aea1f.js
+      npm.react-transition-group.a697aea1f.js
+      npm.mongodb-stitch-core-services-mongodb-remote.a697aea1f.js
+      npm.mongodb-stitch-browser-services-mongodb-remote.a697aea1f.js
+      npm.prop-types.a697aea1f.js
+      npm.react-dom.a697aea1f.js
+      npm.scheduler.a697aea1f.js
+      npm.base64-js.a697aea1f.js
+      npm.bson.a697aea1f.js
+      npm.buffer.a697aea1f.js
+      npm.detect-browser.a697aea1f.js
+      npm.ieee754.a697aea1f.js
+      npm.isarray.a697aea1f.js
+      npm.long.a697aea1f.js
+      npm.mongodb-stitch-browser-sdk.a697aea1f.js
+      npm.process.a697aea1f.js
+      npm.webpack.a697aea1f.js
+      npm.core-js.a697aea1f.js
+      npm.react-overlays.a697aea1f.js
+      npm.prop-types-extra.a697aea1f.js
+      npm.uncontrollable.a697aea1f.js
+      npm.react-router-bootstrap.a697aea1f.js
+      npm.path-to-regexp.a697aea1f.js
+      npm.react-is.a697aea1f.js
+      npm.core-js-bundle.a697aea1f.js
+      npm.gud.a697aea1f.js
+      npm.history.a697aea1f.js
+      npm.hoist-non-react-statics.a697aea1f.js
+      npm.invariant.a697aea1f.js
+      npm.mini-create-react-context.a697aea1f.js
+      npm.react-lifecycles-compat.a697aea1f.js
+      npm.react-router-dom.a697aea1f.js
+      npm.react-router.a697aea1f.js
+      npm.regenerator-runtime.a697aea1f.js
+      npm.resolve-pathname.a697aea1f.js
+      npm.tiny-invariant.a697aea1f.js
+      npm.value-equal.a697aea1f.js
+      main~resume.a697aea1f.js
+      intro~main.a697aea1f.js
+      main.css
+      main.a697aea1f.js
+  resume (391 KiB)
+      npm.react-bootstrap.a697aea1f.js
+      npm.babel.a697aea1f.js
+      npm.restart.a697aea1f.js
+      npm.react.a697aea1f.js
+      npm.classnames.a697aea1f.js
+      npm.object-assign.a697aea1f.js
+      npm.mongodb-stitch-core-sdk.a697aea1f.js
+      npm.dom-helpers.a697aea1f.js
+      npm.mongodb-stitch-browser-core.a697aea1f.js
+      npm.react-transition-group.a697aea1f.js
+      npm.mongodb-stitch-core-services-mongodb-remote.a697aea1f.js
+      npm.mongodb-stitch-browser-services-mongodb-remote.a697aea1f.js
+      npm.prop-types.a697aea1f.js
+      npm.react-dom.a697aea1f.js
+      npm.scheduler.a697aea1f.js
+      npm.base64-js.a697aea1f.js
+      npm.bson.a697aea1f.js
+      npm.buffer.a697aea1f.js
+      npm.detect-browser.a697aea1f.js
+      npm.ieee754.a697aea1f.js
+      npm.isarray.a697aea1f.js
+      npm.long.a697aea1f.js
+      npm.mongodb-stitch-browser-sdk.a697aea1f.js
+      npm.process.a697aea1f.js
+      npm.webpack.a697aea1f.js
+      main~resume.a697aea1f.js
+      resume.a697aea1f.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+     1 asset
+    Entrypoint [1mundefined[39m[22m = [1m[32m./index.html[39m[22m
+    [MFLM] [1m./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html[39m[22m 1.53 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        single entry [1m[36mC:\Users\code_blodd\Code\React\react-resume\node_modules\html-webpack-plugin\lib\loader.js!C:\Users\code_blodd\Code\React\react-resume\src\index.html[39m[22m 
+    [YuTi] [1m(webpack)/buildin/module.js[39m[22m 497 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        cjs require [1m[36mmodule[39m[22m [LvDl] [1m[35m./node_modules/lodash/lodash.js[39m[22m 1:0-41
+    [yLpj] [1m(webpack)/buildin/global.js[39m[22m 472 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        cjs require [1m[36mglobal[39m[22m [LvDl] [1m[35m./node_modules/lodash/lodash.js[39m[22m 1:0-41
+        + 1 hidden module
+Child [1mmini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/sass-loader/dist/cjs.js!src/scss/base.scss[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [KwEO] [1m./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/base.scss[39m[22m 3.53 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        single entry [1m[36m!!C:\Users\code_blodd\Code\React\react-resume\node_modules\css-loader\dist\cjs.js!C:\Users\code_blodd\Code\React\react-resume\node_modules\sass-loader\dist\cjs.js!C:\Users\code_blodd\Code\React\react-resume\src\scss\base.scss[39m[22m  mini-css-extract-plugin
+    [Tsde] [1m./src/static/background.jpg[39m[22m 82 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        cjs require [1m[36m../static/background.jpg[39m[22m [KwEO] [1m[35m./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/base.scss[39m[22m 4:38-73
+    [nVQF] [1m./src/static/mochaGrunge.png[39m[22m 82 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+        cjs require [1m[36m../static/mochaGrunge.png[39m[22m [KwEO] [1m[35m./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/base.scss[39m[22m 5:38-74
+        + 2 hidden modules
